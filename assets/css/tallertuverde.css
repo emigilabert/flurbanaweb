@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.taller-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.taller-hero .container h1 {
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.taller-hero .container a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 200;
+  margin: auto;
+}
+
+.taller-hero .container .btn-get-started {
+  font-family: "Eveleth Bold", sans-serif;
+  padding: 10px 40px;
+  text-align: center;
+  background-color: #ff6400;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.how-it-works-section {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.how-it-works-content {
+  width: 350px;
+}
+
+.how-it-works-img {
+  width: 500px;
+}
+
+.experiencies .experiencies-card {
+  width: 300px;
+  position: relative;
+}
+
+.experiencies .experiencies-card img {
+  width: 200px;
+}
+
+.experiencies .experiencies-card p {
+  font-weight: 500;
+  color: #392105;
+}
+
+.experiencies .experiencies-card .experiencies-card-name {
+  position: absolute;
+  color: #b93607;
+  font-weight: bold;
+  bottom: -50px;
+}
+
+.modules-content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.modules-content img {
+  width: 130px;
+  margin-bottom: 50px;
+}
+
+.modules-content p {
+  margin: 0;
+  color: #f8f0dc;
+  font-weight: 300;
+  align-self: flex-start;
+}
+
+.benefits-at-end-content {
+  padding: 0 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 100px;
+}
+
+.benefits-at-end-content .benefits-double {
+  gap: 170px;
+}
+
+.payment-methods-img {
+  width: 650px;
+}
+
+.discount-img {
+  width: 300px;
+}
+
+@media screen and (max-width: 1350px) {
+  .how-it-works-section {
+    padding: 80px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .how-it-works-content {
+    width: 60%;
+  }
+
+  .how-it-works-content h2 {
+    padding: 0;
+  }
+
+  .how-it-works-content .section-title {
+    padding: 0;
+  }
+
+  .how-it-works-content br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .benefits-at-end-content .benefits-double {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payment-methods-img {
+    width: 80%;
+  }
+
+  .discount-img {
+    width: 40%;
+  }
+
+  .how-it-works-img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .benefits-at-end-content .benefits-double .icon-data-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .benefits-at-end-content .benefits-double .icon-data-container br {
+    display: none;
+  }
+}
